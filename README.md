@@ -25,3 +25,10 @@ I even tried
 adding a valuechangelistener but this is giving me another error 
 StackOverFlow exception on line 114   			// item.getItemProperty(propertyId).setValue(value);
 which I commented out. (Look in MyVaadinUI.java)
+
+Basically, I am initialzing the container data with 0's in   
+createContainerData()
+Then populating the table when a click is done on the button "Populate"
+call to uploadReceiver.getMatrix() will get the matrix[][] which is two dim array of integers.
+
+My Email for any details: sbollap1@gmail.com
